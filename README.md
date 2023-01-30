@@ -10,3 +10,9 @@ Accurate classification of the type of brain tumor plays an important role in th
 ## Dataset
 Dataset can be downloaded from the following link <br>
 (https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+
+# Steps
+1. Crop brain contour
+2. Use https://github.com/jfilter/split-folders to split dataset into train and test of 80:20
+3. Apply Data augmentation on dataset in train set only
+4. Train model and evalaute
